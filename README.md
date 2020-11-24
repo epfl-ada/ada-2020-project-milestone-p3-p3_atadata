@@ -12,3 +12,11 @@ List the dataset(s) you want to use, and some ideas on how you expect to get, ma
 A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
 ## Questions for TAs (optional)
 Add here any questions you have for us related to the proposed project.
+
+
+## Ideas :
+
+* Form clusters using unsupervised learning and see if they are meaningful. But using which input data ?
+* Try to get the dataset with the messages, and then. Use a state of the art classifier (BERT) 
+* Think about the behaviour of the players after the betrayal
+* ???
