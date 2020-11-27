@@ -14,7 +14,7 @@ The questions we would like to explore in our project are:
 - What features can explain the betrayal best?
 
 ## Proposed dataset
-List the dataset(s) you want to use, and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you've read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible given the datasets at hand.
+***List the dataset(s) you want to use, and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you've read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible given the datasets at hand.***
 
 We analyzed what datasets can complement the existing work, but we were unable to find the original raw data or other datasets containing betrayal clues/labeling. However, we identified a project based on training a bot to play the Diplomacy game, using a dataset of 156k games, containing 13 million messages. We emailed the author of the research, as it says the 'dataset is available upon request'. We are currently pending an answer.
 
