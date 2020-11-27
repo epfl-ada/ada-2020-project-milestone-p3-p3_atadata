@@ -23,6 +23,9 @@ Given the current dataset provided by the paper's authors consists of extracted 
 ## Methods
 Our proposed methods will mostly rely on unsupervised approaches to understand betrayal behavior. We will start by considering only the embedding representation and attempt to apply clustering methods such as K-means or DBSCAN depending on the shapes of the clusters to identify various classes of words that can indicate betrayal. We believe a good distance metric for this scenario would be the cosine similarity or the Hellinger distance for the embeddings computed by us. Furthermore, we can expand the features we used to also cover the sentiment score, as well as the number of requests or the length of messages sent.
 
+**MAxime:*** Which clusters indicates betrayal ? What clusters have been formed and see if those clusters can explain the betrayal !
+
+
 From a supervised perspective, we intend to look at a dimension that was ignored in the paper: the time dimension. Because these relationships build upon existing relationships each season, we can analyze our problem from a time series perspective and see how previous steps influence the current one when the betrayal takes place. Therefore, we can consider the aforementioned features and because of the complexity given by the embeddings, we will explore how an LSTM-based architecture would improve the classification scores. Furthermore, we can explore using a sliding window based on the number of seasons, how decision tree models like Random Forest of XGBoost perform on the task of classifying betrayal.
 
 ## Proposed timeline
