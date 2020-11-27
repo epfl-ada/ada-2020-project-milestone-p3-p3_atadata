@@ -28,6 +28,23 @@ From a supervised perspective, we intend to look at a dimension that was ignored
 ## Proposed timeline
 ## Organization within the team
 A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
+
+Feature engineering:
+- combine lexicon, frequent, discourse words and clean it (remove contractions, stopping words, stemming)
+- load various word embeddings (Glove, word2vec)
+- create co-occurance matrix and get own embeddings
+- normalize/standardize features like number of requests/length of messages
+- expand features for timeseries using a sliding window
+
+Modeling:
+- visualize the resulted features
+- clustering using some distance metrics
+- train an LSTM model
+- train a Random Forest and XGBoost
+
+Results:
+- analyze clusters and see most common words
+- draw comparison between models using as baseline the models presented in the paper
 ## Questions for TAs (optional)
 
 ***Add here any questions you have for us related to the proposed project.***
