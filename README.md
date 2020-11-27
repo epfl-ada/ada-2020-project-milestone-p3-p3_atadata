@@ -1,7 +1,7 @@
 # Title
 
 ## Abstract
-***A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why? ***
+***A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?***
 
 We would like to know what features can explain the betrayal better than the politeness score. What kind of sub-features that we can extract from each set of messages can be correlated with a betrayal ? The idea would be to try several approaches, several feature engineering techniques and several methods to tackle this question.
 
