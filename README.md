@@ -26,6 +26,13 @@ Our proposed methods will mostly rely on unsupervised approaches to understand b
 From a supervised perspective, we intend to look at a dimension that was ignored in the paper: the time dimension. Because these relationships build upon existing relationships each season, we can analyze our problem from a time series perspective and see how previous steps influence the current one when the betrayal takes place. Therefore, we can consider the aforementioned features and because of the complexity given by the embeddings, we will explore how an LSTM-based architecture would improve the classification scores. Furthermore, we can explore using a sliding window based on the number of seasons, how decision tree models like Random Forest of XGBoost perform on the task of classifying betrayal.
 
 ## Proposed timeline
+The proposed timeline may change throughout the realisation of the project.
+
+* Week 1: Getting the dataset, do feature engineering (cited below) on all the data that we have in order to prepare them for training the models. Visualize the new data.
+* Week 2: Implementing the training process of the models (unsupervised and supervised models). Prepare the results.
+* Week 3: Continuing with analysis, preparing the data story and short video.
+(This is just an example: remember that this is mainly for you to plan ahead, so include more details if it makes sense for you to do so!)
+
 ## Organization within the team
 A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
 
@@ -48,10 +55,3 @@ Results:
 ## Questions for TAs (optional)
 
 ***Add here any questions you have for us related to the proposed project.***
-
-
-## Ideas :
-
-* Use several feature engineering approaches (word embedding, matrices (Irina).., combining other features, PCA)
-* Try to apply Supervised Learning to classify the betrayal and see if we can get better result than the paper
-* Try to apply Unsupervised Learning if we can observe to distinct classes ..??
