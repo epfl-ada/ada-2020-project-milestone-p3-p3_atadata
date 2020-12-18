@@ -52,6 +52,15 @@ Modeling:
 Results:
 - Analyze the results obtained by the models, drive insights on what contributes most to the prediction
 - Draw comparison between models using as baseline the models presented in the paper
-## Questions for TAs (optional)
 
-***Add here any questions you have for us related to the proposed project.***
+
+## Structure of project
+
+- `Notebook.ipynb` contains our analysis
+- `Atadata_report.pdf` presents an overview of our work
+- In folder `utils`:
+  - `preprocess_data.py`: methods to preprocess the raw dataset
+  - `evaluation_utils.py`:  methods to evaluate score and confidence intervals
+  - `text_preprocessing_utils.py`: methods to clean words and build embedding matrix
+  - `models.py`: contains all neural network models 
+
